@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "SvnClientExample": {
+      "commandName": "Project",
+      "commandLineArgs": "https://I7-8700/svn/RailCheck/"
+    }
+  }
+}
