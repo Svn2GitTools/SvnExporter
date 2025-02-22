@@ -34,7 +34,7 @@
         * `FileContentMode`: Control the level of file content retrieval (None, Preview, Full).
         * `IncludeChangedPaths`: Include lists of changed files/directories in each revision.
         * `IncludeRevisionProperties`: Include custom revision properties.
-* **Uses SharpSvn:**  Built on the robust and well-regarded [SharpSvn](https://sharpsvn.open.collab.net/) library for interacting with SVN repositories.
+* **Uses SharpSvn:**  Built on the robust and well-regarded [SharpSvn](https://github.com/AmpScm/SharpSvn) library for interacting with SVN repositories.
 
 ## Getting Started
 
@@ -144,12 +144,3 @@ This project is licensed under the [MIT License](LICENSE) - see the [LICENSE](LI
 
 **[← Back to Svn to Git Tools Collection](https://github.com/Svn2GitTools)**  <!-- Replace with your organization link -->
 ```
-
-**Key points to customize:**
-
-* **Repository URLs:**  Make sure all repository links (clone URL, organization link, "Back to Collection" link) are correct for your project.
-* **License:**  If you are using a license other than MIT, update the badge, license section, and `LICENSE` file.
-* **Example Usage:**  Adapt the example usage code to be more concrete and runnable if you have a sample console application project.  If not, the conceptual examples are still helpful.
-* **Code Structure:**  Review the "Code Structure" section and adjust it if your actual project file organization is different.
-* **SharpSvn Link:** Double-check the SharpSvn link.
-* **License File:** Ensure you have a `LICENSE` file in your repository root with the full license text.
