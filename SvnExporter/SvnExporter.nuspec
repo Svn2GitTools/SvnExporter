@@ -6,13 +6,13 @@
     <title>$title$</title>
     <authors>$author$</authors>
     <owners>$author$</owners>
-    <licenseUrl>https://raw.githubusercontent.com/Svn2GitTools/SvnDumpParser/refs/heads/master/LICENSE</licenseUrl>
-    <projectUrl>https://github.com/Svn2GitTools/SvnDumpParser</projectUrl>
+    <licenseUrl>https://raw.githubusercontent.com/Svn2GitTools/SvnExporter/refs/heads/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/Svn2GitTools/SvnExporter</projectUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>$description$</description>
-    <readme>readme.md</readme>
+    <readme>..\readme.md</readme>
     <releaseNotes>Summary of changes made in this release of the package.</releaseNotes>
     <copyright>Copyright 2025</copyright>
-    <tags>SVN dump parser NET9.0</tags>
+    <tags>SVN exporter NET9.0</tags>
   </metadata>
 </package>
