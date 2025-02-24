@@ -13,8 +13,9 @@
     <Title>Svn Exporter</Title>
     <Description>A library to parse SVN dumps</Description>
     <Copyright>Copyright 2025 by Alex Nek</Copyright>
-    <PackageProjectUrl>https://github.com/Svn2GitTools/SvnDumpParser</PackageProjectUrl>
+    <PackageProjectUrl>https://github.com/Svn2GitTools/SvnExporter</PackageProjectUrl>
     <PackageTags>SVN dump parser NET9.0</PackageTags>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
   </PropertyGroup>
 
   <ItemGroup>
