@@ -5,7 +5,24 @@
     <TargetFramework>net9.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    <PackageReadmeFile>readme.md</PackageReadmeFile>
+    <RepositoryUrl>https://github.com/Svn2GitTools/SvnDumpParser</RepositoryUrl>
+    <Company>private</Company>
+    <Authors>Alex Nek</Authors>
+    <PackageId>SvnExporter.Lib</PackageId>
+    <Title>Svn Exporter</Title>
+    <Description>A library to parse SVN dumps</Description>
+    <Copyright>Copyright 2025 by Alex Nek</Copyright>
+    <PackageProjectUrl>https://github.com/Svn2GitTools/SvnDumpParser</PackageProjectUrl>
+    <PackageTags>SVN dump parser NET9.0</PackageTags>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\readme.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="SharpSvn" Version="1.14003.290" />
