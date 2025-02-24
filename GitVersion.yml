@@ -1,0 +1,12 @@
+assembly-informational-format: '{Major}.{Minor}.{Patch}'
+mode: ContinuousDelivery
+next-version: 1.0.0
+branches:
+  master:
+    regex: ^master$
+    is-release-branch: true
+  develop:
+    regex: ^develop$
+ignore:
+  sha: []
+merge-message-formats: {}

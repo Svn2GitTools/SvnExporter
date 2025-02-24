@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>$id$</id>
+    <version>$version$</version>
+    <title>$title$</title>
+    <authors>$author$</authors>
+    <owners>$author$</owners>
+    <licenseUrl>https://raw.githubusercontent.com/Svn2GitTools/SvnDumpParser/refs/heads/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/Svn2GitTools/SvnDumpParser</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>$description$</description>
+    <readme>readme.md</readme>
+    <releaseNotes>Summary of changes made in this release of the package.</releaseNotes>
+    <copyright>Copyright 2025</copyright>
+    <tags>SVN dump parser NET9.0</tags>
+  </metadata>
+</package>
