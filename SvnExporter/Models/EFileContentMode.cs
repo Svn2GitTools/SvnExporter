@@ -1,4 +1,4 @@
-﻿namespace SvnExporter.Models;
+﻿namespace SvnExporter.Lib.Models;
 
 public enum EFileContentMode
 {

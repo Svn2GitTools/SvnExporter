@@ -1,7 +1,7 @@
-﻿using SvnExporter;
-using SvnExporter.Models;
+﻿using SvnExporter.Lib;
+using SvnExporter.Lib.Models;
 
-namespace SvnClientExample;
+namespace SvnExporterDemo;
 
 class Program
 {

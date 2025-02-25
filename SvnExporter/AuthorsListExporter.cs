@@ -1,11 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.IO;
-using System.Linq;
+﻿using SvnExporter.Lib.Models;
 
-using SvnExporter.Models;
-
-namespace SvnExporter;
+namespace SvnExporter.Lib;
 
 public class AuthorsListExporter : ISvnItemsExporter
 {

@@ -1,6 +1,6 @@
 ﻿using SharpSvn;
 
-namespace SvnExporter.Models;
+namespace SvnExporter.Lib.Models;
 
 public class SvnChangeInfo
 {

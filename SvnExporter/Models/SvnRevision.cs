@@ -1,6 +1,6 @@
 ﻿using System.Collections.ObjectModel;
 
-namespace SvnExporter.Models;
+namespace SvnExporter.Lib.Models;
 
 public class SvnRevision
 {

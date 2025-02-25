@@ -3,11 +3,11 @@ using System.Diagnostics;
 
 using SharpSvn;
 
-using SvnExporter.Models;
+using SvnExporter.Lib.Models;
 
-using SvnRevision = SvnExporter.Models.SvnRevision;
+using SvnRevision = SvnExporter.Lib.Models.SvnRevision;
 
-namespace SvnExporter;
+namespace SvnExporter.Lib;
 
 public class SvnItemsReader : ISvnItemsReader
 {

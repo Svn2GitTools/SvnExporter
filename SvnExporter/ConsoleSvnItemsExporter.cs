@@ -1,6 +1,6 @@
-﻿using SvnExporter.Models;
+﻿using SvnExporter.Lib.Models;
 
-namespace SvnExporter;
+namespace SvnExporter.Lib;
 
 public class ConsoleSvnItemsExporter : ISvnItemsExporter
 {
