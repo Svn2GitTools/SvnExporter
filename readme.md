@@ -1,5 +1,5 @@
 # SvnExporter
-[![NuGet Package](https://img.shields.io/nuget/v/SvnImporter.Lib.svg?style=flat-square)](https://www.nuget.org/packages/SvnImporter.Lib)
+[![NuGet Package](https://img.shields.io/nuget/v/SvnExporter.Lib.svg?style=flat-square)](https://www.nuget.org/packages/SvnExporter.Lib)
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)  <!-- Replace with your license badge if different -->
 [![GitHub Organization](https://img.shields.io/badge/Organization-Svn2GitTools-blueviolet)](https://github.com/Svn2GitTools) <!-- Replace with your org link if different -->
 
