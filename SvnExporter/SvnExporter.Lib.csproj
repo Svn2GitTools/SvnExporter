@@ -7,7 +7,6 @@
   </PropertyGroup>
 
 <PropertyGroup>
-  <PackageId>SvnExporter.Lib</PackageId>
   <Version>1.0.0</Version>
   <Authors>Alex Nek</Authors>
   <Description>A library to parse SVN dumps.</Description>
