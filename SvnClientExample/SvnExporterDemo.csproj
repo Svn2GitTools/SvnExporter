@@ -6,7 +6,7 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
     <PackageReadmeFile>readme.md</PackageReadmeFile>
-    <RepositoryUrl>https://github.com/Svn2GitTools/SvnDumpParser</RepositoryUrl>
+    <RepositoryUrl>https://github.com/Svn2GitTools/SvnEporter</RepositoryUrl>
     <Company>private</Company>
     <Authors>Alex Nek</Authors>
     <PackageId>SvnExporter.Lib</PackageId>
@@ -14,11 +14,16 @@
     <Description>A library to parse SVN dumps</Description>
     <Copyright>Copyright 2025 by Alex Nek</Copyright>
     <PackageProjectUrl>https://github.com/Svn2GitTools/SvnExporter</PackageProjectUrl>
-    <PackageTags>SVN dump parser NET9.0</PackageTags>
+    <PackageTags>SVN exporter NET9.0</PackageTags>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
   </PropertyGroup>
 
   <ItemGroup>
+    <None Include="..\LICENSE">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
     <None Include="..\readme.md">
       <Pack>True</Pack>
       <PackagePath>\</PackagePath>
@@ -30,7 +35,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\SvnExporter\SvnExporter.csproj" />
+    <ProjectReference Include="..\SvnExporter\SvnExporter.Lib.csproj" />
   </ItemGroup>
 
 </Project>

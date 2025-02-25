@@ -1,11 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.12.35728.132 d17.12
+VisualStudioVersion = 17.12.35728.132
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SvnExporter", "SvnExporter\SvnExporter.csproj", "{91E0144F-89B0-409F-BCC5-F8D2DB1E349A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SvnExporter.Lib", "SvnExporter\SvnExporter.Lib.csproj", "{91E0144F-89B0-409F-BCC5-F8D2DB1E349A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SvnClientExample", "SvnClientExample\SvnClientExample.csproj", "{D608407F-E69C-4851-9BD6-CB5499DB8591}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SvnExporterDemo", "SvnClientExample\SvnExporterDemo.csproj", "{D608407F-E69C-4851-9BD6-CB5499DB8591}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
