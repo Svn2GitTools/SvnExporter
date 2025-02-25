@@ -4,21 +4,30 @@
     <TargetFramework>net9.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    <PackageReadmeFile>readme.md</PackageReadmeFile>
+    <RepositoryUrl>https://github.com/Svn2GitTools/SvnEporter</RepositoryUrl>
+    <Company>private</Company>
+    <Authors>Alex Nek</Authors>
+    <PackageId>SvnExporter.Lib</PackageId>
+    <Title>Svn Exporter</Title>
+    <Description>A library to parse SVN dumps</Description>
+    <Copyright>Copyright 2025 by Alex Nek</Copyright>
+    <PackageProjectUrl>https://github.com/Svn2GitTools/SvnExporter</PackageProjectUrl>
+    <PackageTags>SVN exporter NET9.0</PackageTags>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
   </PropertyGroup>
 
-<PropertyGroup>
-  <Version>1.0.0</Version>
-  <Authors>Alex Nek</Authors>
-  <Description>A library to parse SVN dumps.</Description>
-    <licenseUrl>https://raw.githubusercontent.com/Svn2GitTools/Exporter/refs/heads/master/LICENSE</licenseUrl>
-    <projectUrl>https://github.com/Svn2GitTools/SvnExporter</projectUrl>
-    <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <description>$description$</description>
-    <readme>..\readme.md</readme>
-    <releaseNotes>Summary of changes made in this release of the package.</releaseNotes>
-    <copyright>Copyright 2025</copyright>
-    <tags>SVN exporter NET9.0</tags>
-</PropertyGroup>
+  <ItemGroup>
+    <None Include="..\LICENSE">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Include="..\readme.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="SharpSvn" Version="1.14003.290" />

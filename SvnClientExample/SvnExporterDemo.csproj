@@ -5,18 +5,6 @@
     <TargetFramework>net9.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <PackageReadmeFile>readme.md</PackageReadmeFile>
-    <RepositoryUrl>https://github.com/Svn2GitTools/SvnEporter</RepositoryUrl>
-    <Company>private</Company>
-    <Authors>Alex Nek</Authors>
-    <PackageId>SvnExporter.Lib</PackageId>
-    <Title>Svn Exporter</Title>
-    <Description>A library to parse SVN dumps</Description>
-    <Copyright>Copyright 2025 by Alex Nek</Copyright>
-    <PackageProjectUrl>https://github.com/Svn2GitTools/SvnExporter</PackageProjectUrl>
-    <PackageTags>SVN exporter NET9.0</PackageTags>
-    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
-    <PackageLicenseFile>LICENSE</PackageLicenseFile>
   </PropertyGroup>
 
   <ItemGroup>
