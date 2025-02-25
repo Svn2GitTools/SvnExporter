@@ -38,11 +38,21 @@
 
 ## Getting Started
 
+
 ### Prerequisites
 
 * **.NET Runtime:**  Ensure you have a compatible .NET runtime installed (e.g., .NET 9 or later).
 * **SharpSvn:** SvnExporter relies on the SharpSvn library.  This is typically managed through NuGet package manager when building the project.
 * **SVN Client (Optional):** While SvnExporter uses SharpSvn, having a standard SVN client installed might be helpful for troubleshooting or interacting with SVN repositories outside of this tool.
+### Installation  
+
+You can install `SvnExporter` using NuGet:  
+
+```bash
+dotnet add package SvnExporter.Lib
+```  
+
+> **Note:** The package ID has been changed to SvnExporter.Lib to avoid conflicts with an existing package.
 
 ### Building the Project
 
